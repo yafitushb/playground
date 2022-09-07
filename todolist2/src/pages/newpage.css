@@ -1,6 +1,5 @@
+/* Create New Task */
 .createnewtask {
-    /* Create New Task */
-
 
 position: absolute;
 width: 151px;
@@ -48,7 +47,8 @@ align-items: center;
 color: #B5B5B5;
 }
 
-.todo{
+/* To Do */
+.todo {
     /* View All Everyone To Do Haley In Progress Ben Complete Kevin */
 
 
@@ -94,6 +94,7 @@ color: #E18109;
 
 }
 
+/* In Progress */
 .inprogress {
     /* Rectangle 267 */
 
@@ -140,7 +141,7 @@ color: #B5B5B5;
 
 }
 
-
+/* Completed */
 .completed {
     /* Rectangle 269 */
 
@@ -187,6 +188,7 @@ color: #B5B5B5;
 
 }
 
+/* Description */
 .descInput {
     /* Rectangle 1 */
 
@@ -200,7 +202,8 @@ bottom: 0%;
 /* Light */
 
 background: #FDFDFD;
-border-radius: 8px;/* Description */
+border-radius: 8px;
+/* Description */
 
 
 position: absolute;
