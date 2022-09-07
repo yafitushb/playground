@@ -21,7 +21,16 @@
                    <button class="btn todo">To Do</button>
                   <button class="btn inprogress">In Progress</button>
                    <button class="btn completed">Completed</button>
-                    <input 
+                   <input 
+                   className='titleInput'
+                       type="text" 
+                       name="title"
+                       value={taskDetails.title || ''}
+                       onChange={handleChangeTaskDetails}
+                       placeholder="Title"
+                   />
+                   <button class="btn createtask">Create Task</button>         
+                   <input 
                     className='descInput'
                         type="text" 
                         name="desc"

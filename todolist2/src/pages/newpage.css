@@ -20,9 +20,9 @@ line-height: 23px;
 color: #4F4F4F;
 }
 
-.time{
 /* Add Due Date */
 
+.time {
 
 position: absolute;
 width: 298px;
@@ -96,7 +96,7 @@ color: #E18109;
 
 /* In Progress */
 .inprogress {
-    /* Rectangle 267 */
+/* Rectangle 267 */
 
 
 box-sizing: border-box;
@@ -142,8 +142,10 @@ color: #B5B5B5;
 }
 
 /* Completed */
+
 .completed {
-    /* Rectangle 269 */
+
+/* Rectangle 269 */
 
 
 box-sizing: border-box;
@@ -189,8 +191,10 @@ color: #B5B5B5;
 }
 
 /* Description */
+
 .descInput {
-    /* Rectangle 1 */
+
+/* Rectangle 1 */
 
 
 position: absolute;
@@ -227,9 +231,9 @@ line-height: 140%;
 color: #B5B5B5;
 }
 
-.createtask {
-    /* Button / Create Task / Default */
+/* Button / Create Task / Default */
 
+.createtask {
 
 /* Auto layout */
 
@@ -251,4 +255,29 @@ top: calc(50% - 40px/2);
 background: #CAC7FF;
 border-radius: 7px;
 
+}
+
+/* New Task Title / Default */
+
+.title {
+    
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 10px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+width: 400px;
+height: 40px;
+left: 32px;
+top: 104px;
+
+/* Light */
+
+background: #FDFDFD;
+border-radius: 8px;
 }
