@@ -1,0 +1,61 @@
+@import url('http//fonts.googleapis.com/css?family=Roboto:400,700,600|Poppins:400|Work+Sans:500|Inter:400,700,500');
+
+.valign-text-midle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-task-labels {
+    align-items: flex-start;
+    display: flex;
+    min-width: 273px;
+    position: relative;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background-color: var(--wild-sand);
+    border-radius: 4px;
+    display: flex;
+    height: 24px;
+    margin-left: 16px;
+    min-width: 88px;
+    padding: 0 8.5px;
+}
+
+.completed{
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 140px;
+    margin-top: -0.5px;
+    white-space: nowrap;
+}
+
+.label-to-do-default {
+    align-items: flex-start;
+    background-color: var(--peach-cream);
+    border-radius: 4px;
+    display: flex;
+    height: 24px;
+    min-width: 72px;
+    padding: 4.4px 16.1px;
+}
+
+.to-do{
+    height: 12px;
+    letter-spacing: 0;
+    line-height: 140px;
+    white-space: nowrap;
+}
+
+.label-in-progress-unselected {
+    align-items: flex-start;
+    background-color: var(--wild-sand);
+    border-radius: 4px;
+    display: flex;
+    height: 24px;
+    margin-left: 16px;
+    min-width: 88px;
+    padding: nowrap;
+}

@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "playground": "^0.7.0"
+  },
+  "name": "y",
+  "description": "for testing out GitHub Desktop. #yafit test1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yafitushb/playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yafitushb/playground/issues"
+  },
+  "homepage": "https://github.com/yafitushb/playground#readme",
+  "devDependencies": {}
+}

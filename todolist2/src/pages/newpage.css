@@ -1,0 +1,251 @@
+.createnewtask {
+    /* Create New Task */
+
+
+position: absolute;
+width: 151px;
+height: 18px;
+left: 32px;
+top: 22px;
+
+/* H3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+/* Text/Body */
+
+color: #4F4F4F;
+}
+
+.time{
+/* Add Due Date */
+
+
+position: absolute;
+width: 298px;
+height: 10px;
+left: 64px;
+top: 287px;
+
+/* P2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 112%;
+/* or 16px */
+
+display: flex;
+align-items: center;
+
+/* Text/2nd text color */
+
+color: #B5B5B5;
+}
+
+.todo{
+    /* View All Everyone To Do Haley In Progress Ben Complete Kevin */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Light Orange */
+
+background: #FFF0DF;
+/* Dark Orange */
+
+border: 0.5px solid #E18109;
+border-radius: 4px;
+/* To Do */
+
+
+position: absolute;
+left: 23.03%;
+right: 24.66%;
+top: 25%;
+bottom: 26.61%;
+
+/* P2 Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+/* Dark Orange */
+
+color: #E18109;
+
+}
+
+.inprogress {
+    /* Rectangle 267 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Background Grey */
+
+background: #F4F4F4;
+/* Text/2nd text color */
+
+border: 0.5px solid #B5B5B5;
+border-radius: 4px;
+/* In Progress */
+
+
+position: absolute;
+left: 9.09%;
+right: 7.95%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* P2 Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+
+/* Text/2nd text color */
+
+color: #B5B5B5;
+
+}
+
+
+.completed {
+    /* Rectangle 269 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: -8.64%;
+top: 0%;
+bottom: 0%;
+
+/* Background Grey */
+
+background: #F4F4F4;
+/* Text/2nd text color */
+
+border: 0.5px solid #B5B5B5;
+border-radius: 4px;
+/* Completed */
+
+
+position: absolute;
+left: 11.11%;
+right: 3.7%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* P2 Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+
+/* Text/2nd text color */
+
+color: #B5B5B5;
+
+}
+
+.descInput {
+    /* Rectangle 1 */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Light */
+
+background: #FDFDFD;
+border-radius: 8px;/* Description */
+
+
+position: absolute;
+left: 3.57%;
+right: 65.37%;
+top: 7.5%;
+bottom: 75.97%;
+
+/* P1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+/* Text/2nd text color */
+
+color: #B5B5B5;
+}
+
+.createtask {
+    /* Button / Create Task / Default */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 109px;
+gap: 10px;
+
+position: absolute;
+height: 40px;
+left: 0%;
+right: 0%;
+top: calc(50% - 40px/2);
+
+/* Light Purple */
+
+background: #CAC7FF;
+border-radius: 7px;
+
+}

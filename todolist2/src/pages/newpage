@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div className="createnewtask">
+    <h1>Create New Task</h1>
+        <div className="formTask">
+            <form>
+                    <input 
+                        type="date" 
+                        name="time"
+                        value={taskDetails.time || ''}
+                        onChange={handleChangeTaskDetails}
+                        placeholder="Title"
+                    />
+                   <button class="btn todo">To Do</button>
+                  <button class="btn inprogress">In Progress</button>
+                   <button class="btn completed">Completed</button>
+                    <input 
+                    className='descInput'
+                        type="text" 
+                        name="desc"
+                        value={taskDetails.desc || ''}
+                        onChange={handleChangeTaskDetails}
+                        placeholder="Description"
+                    />
+                    <button class="btn createtask">Create Task</button>
+
+                </form>
+            </div>
+        </div>
+  );
+};
+    
+
+  </div>
+</body>
+</html>
